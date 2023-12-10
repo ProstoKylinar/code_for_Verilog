@@ -87,7 +87,7 @@ int main() {
     int N;
     std::cout << "Enter the value of N: ";
     std::cin >> N;
-    generateKaratsubaVerilog(N + 1);
+    generateKaratsubaVerilog(N);
     std::cout << "Verilog files generated successfully.\n";
 
     return 0;
